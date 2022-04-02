@@ -22,4 +22,17 @@ public class Circulo {
     public void setRadio(float radio) {
         this.radio = radio;
     }
+    public float getArea(){
+        area=(radio *3.1416f);
+        return area;
+    }
+    public  float getDiametro(){
+        diametro=radio*2;
+        return diametro;
+    }
+
+    public float getCircunferencia() {
+        circunferencia=3.1416f *diametro;
+        return circunferencia;
+    }
 }
